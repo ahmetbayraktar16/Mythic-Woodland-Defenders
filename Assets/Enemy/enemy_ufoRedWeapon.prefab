@@ -8,13 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -7966116402596522868, guid: c3052c2bdf42beb4c8bb58f874a0b6f5, type: 3}
-      propertyPath: path.Array.size
-      value: 8
+    - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       propertyPath: m_LocalRotation.w
@@ -56,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy_ufoRedWeapon
       objectReference: {fileID: 0}
+    - target: {fileID: -7966116402596522868, guid: c3052c2bdf42beb4c8bb58f874a0b6f5, type: 3}
+      propertyPath: path.Array.size
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -81,5 +93,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3654817a61c13454695b17375351c95a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: []
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 1

@@ -2216,20 +2216,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2237,7 +2225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3628160039994397274, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2270,10 +2258,6 @@ PrefabInstance:
     - target: {fileID: 4112350483460540640, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: m_Name
       value: enemy_ufoRedWeapon
-      objectReference: {fileID: 0}
-    - target: {fileID: 8059129354890141111, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
-      propertyPath: path.Array.size
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8059129354890141111, guid: 7bfaee3c769d0344bb3c44bc548327f3, type: 3}
       propertyPath: path.Array.data[0]
