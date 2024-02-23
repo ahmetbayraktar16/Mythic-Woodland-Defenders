@@ -6,7 +6,7 @@ using UnityEngine;
 public class TargetLocator : MonoBehaviour
 {
     [SerializeField] Transform weapon;
-    [SerializeField] Transform target;
+    Transform target;
 
     void Start()
     {

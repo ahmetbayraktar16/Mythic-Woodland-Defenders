@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       propertyPath: m_Name
-      value: enemy_ufoRedWeapon
+      value: enemyfoRedWeapon
       objectReference: {fileID: 0}
     - target: {fileID: -7966116402596522868, guid: c3052c2bdf42beb4c8bb58f874a0b6f5, type: 3}
       propertyPath: path.Array.size
@@ -75,6 +75,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8059129354890141111}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3273091064150335038}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3616999792905243126}
   m_SourcePrefab: {fileID: 100100000, guid: 65adcec5bc3092140930a9ef263e7610, type: 3}
 --- !u!1 &4112350483460540640 stripped
 GameObject:
@@ -103,3 +109,36 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   speed: 1
+--- !u!135 &3273091064150335038
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4112350483460540640}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0.18, z: 0}
+--- !u!114 &3616999792905243126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4112350483460540640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d485497284780408e30eb6944a85a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,7 +13,7 @@ public class Waypoint : MonoBehaviour
         if (isPlaceable)
         {
             Vector3 spawnPosition = new Vector3(transform.position.x, yOffset, transform.position.z);
-            Instantiate(towerPrefab, transform.position, Quaternion.identity);
+            Instantiate(towerPrefab, spawnPosition, Quaternion.identity);
             isPlaceable = false;
         }
     }
