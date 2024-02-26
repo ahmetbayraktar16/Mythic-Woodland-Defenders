@@ -99,15 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3654817a61c13454695b17375351c95a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  path: []
   speed: 1
 --- !u!135 &3273091064150335038
 SphereCollider:
@@ -142,3 +134,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d485497284780408e30eb6944a85a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHitPoints: 5
+  currentHitPoints: 0
